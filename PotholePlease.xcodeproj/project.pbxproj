@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		497842C5236828D8003D5B98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497842C4236828D8003D5B98 /* AppDelegate.swift */; };
+		497842C7236828D8003D5B98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497842C6236828D8003D5B98 /* SceneDelegate.swift */; };
+		497842C9236828D8003D5B98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497842C8236828D8003D5B98 /* ViewController.swift */; };
+		497842CC236828D8003D5B98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497842CA236828D8003D5B98 /* Main.storyboard */; };
+		497842CF236828D8003D5B98 /* PotholePlease.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 497842CD236828D8003D5B98 /* PotholePlease.xcdatamodeld */; };
+		497842D1236828D9003D5B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497842D0236828D9003D5B98 /* Assets.xcassets */; };
+		497842D4236828D9003D5B98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497842D2236828D9003D5B98 /* LaunchScreen.storyboard */; };
+		497842DF236828D9003D5B98 /* PotholePleaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497842DE236828D9003D5B98 /* PotholePleaseTests.swift */; };
+		497842EA236828D9003D5B98 /* PotholePleaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497842E9236828D9003D5B98 /* PotholePleaseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		497842DB236828D9003D5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 497842B9236828D8003D5B98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 497842C0236828D8003D5B98;
+			remoteInfo = PotholePlease;
+		};
+		497842E6236828D9003D5B98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 497842B9236828D8003D5B98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 497842C0236828D8003D5B98;
+			remoteInfo = PotholePlease;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		497842C1236828D8003D5B98 /* PotholePlease.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PotholePlease.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		497842C4236828D8003D5B98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		497842C6236828D8003D5B98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		497842C8236828D8003D5B98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		497842CB236828D8003D5B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		497842CE236828D8003D5B98 /* PotholePlease.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PotholePlease.xcdatamodel; sourceTree = "<group>"; };
+		497842D0236828D9003D5B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		497842D3236828D9003D5B98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		497842D5236828D9003D5B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497842DA236828D9003D5B98 /* PotholePleaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotholePleaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		497842DE236828D9003D5B98 /* PotholePleaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotholePleaseTests.swift; sourceTree = "<group>"; };
+		497842E0236828D9003D5B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497842E5236828D9003D5B98 /* PotholePleaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotholePleaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		497842E9236828D9003D5B98 /* PotholePleaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotholePleaseUITests.swift; sourceTree = "<group>"; };
+		497842EB236828D9003D5B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		497842BE236828D8003D5B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497842D7236828D9003D5B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497842E2236828D9003D5B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		497842B8236828D8003D5B98 = {
+			isa = PBXGroup;
+			children = (
+				497842C3236828D8003D5B98 /* PotholePlease */,
+				497842DD236828D9003D5B98 /* PotholePleaseTests */,
+				497842E8236828D9003D5B98 /* PotholePleaseUITests */,
+				497842C2236828D8003D5B98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		497842C2236828D8003D5B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				497842C1236828D8003D5B98 /* PotholePlease.app */,
+				497842DA236828D9003D5B98 /* PotholePleaseTests.xctest */,
+				497842E5236828D9003D5B98 /* PotholePleaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		497842C3236828D8003D5B98 /* PotholePlease */ = {
+			isa = PBXGroup;
+			children = (
+				497842C4236828D8003D5B98 /* AppDelegate.swift */,
+				497842C6236828D8003D5B98 /* SceneDelegate.swift */,
+				497842C8236828D8003D5B98 /* ViewController.swift */,
+				497842CA236828D8003D5B98 /* Main.storyboard */,
+				497842D0236828D9003D5B98 /* Assets.xcassets */,
+				497842D2236828D9003D5B98 /* LaunchScreen.storyboard */,
+				497842D5236828D9003D5B98 /* Info.plist */,
+				497842CD236828D8003D5B98 /* PotholePlease.xcdatamodeld */,
+			);
+			path = PotholePlease;
+			sourceTree = "<group>";
+		};
+		497842DD236828D9003D5B98 /* PotholePleaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				497842DE236828D9003D5B98 /* PotholePleaseTests.swift */,
+				497842E0236828D9003D5B98 /* Info.plist */,
+			);
+			path = PotholePleaseTests;
+			sourceTree = "<group>";
+		};
+		497842E8236828D9003D5B98 /* PotholePleaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				497842E9236828D9003D5B98 /* PotholePleaseUITests.swift */,
+				497842EB236828D9003D5B98 /* Info.plist */,
+			);
+			path = PotholePleaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		497842C0236828D8003D5B98 /* PotholePlease */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497842EE236828D9003D5B98 /* Build configuration list for PBXNativeTarget "PotholePlease" */;
+			buildPhases = (
+				497842BD236828D8003D5B98 /* Sources */,
+				497842BE236828D8003D5B98 /* Frameworks */,
+				497842BF236828D8003D5B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PotholePlease;
+			productName = PotholePlease;
+			productReference = 497842C1236828D8003D5B98 /* PotholePlease.app */;
+			productType = "com.apple.product-type.application";
+		};
+		497842D9236828D9003D5B98 /* PotholePleaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497842F1236828D9003D5B98 /* Build configuration list for PBXNativeTarget "PotholePleaseTests" */;
+			buildPhases = (
+				497842D6236828D9003D5B98 /* Sources */,
+				497842D7236828D9003D5B98 /* Frameworks */,
+				497842D8236828D9003D5B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497842DC236828D9003D5B98 /* PBXTargetDependency */,
+			);
+			name = PotholePleaseTests;
+			productName = PotholePleaseTests;
+			productReference = 497842DA236828D9003D5B98 /* PotholePleaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		497842E4236828D9003D5B98 /* PotholePleaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 497842F4236828D9003D5B98 /* Build configuration list for PBXNativeTarget "PotholePleaseUITests" */;
+			buildPhases = (
+				497842E1236828D9003D5B98 /* Sources */,
+				497842E2236828D9003D5B98 /* Frameworks */,
+				497842E3236828D9003D5B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497842E7236828D9003D5B98 /* PBXTargetDependency */,
+			);
+			name = PotholePleaseUITests;
+			productName = PotholePleaseUITests;
+			productReference = 497842E5236828D9003D5B98 /* PotholePleaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		497842B9236828D8003D5B98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Liam Robb";
+				TargetAttributes = {
+					497842C0236828D8003D5B98 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					497842D9236828D9003D5B98 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 497842C0236828D8003D5B98;
+					};
+					497842E4236828D9003D5B98 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 497842C0236828D8003D5B98;
+					};
+				};
+			};
+			buildConfigurationList = 497842BC236828D8003D5B98 /* Build configuration list for PBXProject "PotholePlease" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 497842B8236828D8003D5B98;
+			productRefGroup = 497842C2236828D8003D5B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				497842C0236828D8003D5B98 /* PotholePlease */,
+				497842D9236828D9003D5B98 /* PotholePleaseTests */,
+				497842E4236828D9003D5B98 /* PotholePleaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		497842BF236828D8003D5B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497842D4236828D9003D5B98 /* LaunchScreen.storyboard in Resources */,
+				497842D1236828D9003D5B98 /* Assets.xcassets in Resources */,
+				497842CC236828D8003D5B98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497842D8236828D9003D5B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497842E3236828D9003D5B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		497842BD236828D8003D5B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497842C9236828D8003D5B98 /* ViewController.swift in Sources */,
+				497842C5236828D8003D5B98 /* AppDelegate.swift in Sources */,
+				497842C7236828D8003D5B98 /* SceneDelegate.swift in Sources */,
+				497842CF236828D8003D5B98 /* PotholePlease.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497842D6236828D9003D5B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497842DF236828D9003D5B98 /* PotholePleaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497842E1236828D9003D5B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497842EA236828D9003D5B98 /* PotholePleaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		497842DC236828D9003D5B98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 497842C0236828D8003D5B98 /* PotholePlease */;
+			targetProxy = 497842DB236828D9003D5B98 /* PBXContainerItemProxy */;
+		};
+		497842E7236828D9003D5B98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 497842C0236828D8003D5B98 /* PotholePlease */;
+			targetProxy = 497842E6236828D9003D5B98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		497842CA236828D8003D5B98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497842CB236828D8003D5B98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		497842D2236828D9003D5B98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				497842D3236828D9003D5B98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		497842EC236828D9003D5B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		497842ED236828D9003D5B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		497842EF236828D9003D5B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT856ZDJ3N;
+				INFOPLIST_FILE = PotholePlease/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnalogDawges.PotholePlease;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		497842F0236828D9003D5B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT856ZDJ3N;
+				INFOPLIST_FILE = PotholePlease/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnalogDawges.PotholePlease;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		497842F2236828D9003D5B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT856ZDJ3N;
+				INFOPLIST_FILE = PotholePleaseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnalogDawges.PotholePleaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PotholePlease.app/PotholePlease";
+			};
+			name = Debug;
+		};
+		497842F3236828D9003D5B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT856ZDJ3N;
+				INFOPLIST_FILE = PotholePleaseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnalogDawges.PotholePleaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PotholePlease.app/PotholePlease";
+			};
+			name = Release;
+		};
+		497842F5236828D9003D5B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT856ZDJ3N;
+				INFOPLIST_FILE = PotholePleaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnalogDawges.PotholePleaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PotholePlease;
+			};
+			name = Debug;
+		};
+		497842F6236828D9003D5B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RT856ZDJ3N;
+				INFOPLIST_FILE = PotholePleaseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AnalogDawges.PotholePleaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PotholePlease;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		497842BC236828D8003D5B98 /* Build configuration list for PBXProject "PotholePlease" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497842EC236828D9003D5B98 /* Debug */,
+				497842ED236828D9003D5B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497842EE236828D9003D5B98 /* Build configuration list for PBXNativeTarget "PotholePlease" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497842EF236828D9003D5B98 /* Debug */,
+				497842F0236828D9003D5B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497842F1236828D9003D5B98 /* Build configuration list for PBXNativeTarget "PotholePleaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497842F2236828D9003D5B98 /* Debug */,
+				497842F3236828D9003D5B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		497842F4236828D9003D5B98 /* Build configuration list for PBXNativeTarget "PotholePleaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497842F5236828D9003D5B98 /* Debug */,
+				497842F6236828D9003D5B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		497842CD236828D8003D5B98 /* PotholePlease.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				497842CE236828D8003D5B98 /* PotholePlease.xcdatamodel */,
+			);
+			currentVersion = 497842CE236828D8003D5B98 /* PotholePlease.xcdatamodel */;
+			path = PotholePlease.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 497842B9236828D8003D5B98 /* Project object */;
+}
